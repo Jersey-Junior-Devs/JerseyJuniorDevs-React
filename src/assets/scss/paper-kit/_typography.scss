@@ -137,7 +137,8 @@ h3 .small {
   color: $dark-blue;
   font-weight: 600;
   text-align: left;
-  text-indent: 50px;
+  //   text-indent: 20px;
+  text-justify: inter-word;
 }
 
 .description-light {
