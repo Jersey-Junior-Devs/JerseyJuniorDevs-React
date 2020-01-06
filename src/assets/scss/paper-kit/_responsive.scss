@@ -866,6 +866,10 @@
   }
 }
 @media (max-width: 500px) {
+  .description-bold {
+    text-align: center;
+    margin: 5px;
+  }
   .presentation-page .section-header .card {
     min-height: 230px;
   }
@@ -973,7 +977,7 @@
   }
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 375px) {
   .description-bold {
     text-align: center;
     margin: 5px;
