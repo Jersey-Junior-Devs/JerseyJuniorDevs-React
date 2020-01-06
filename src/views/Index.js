@@ -84,6 +84,7 @@ function Index() {
                   <a
                     href="https://www.facebook.com/groups/3092720600797985/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <img
                       alt="..."
@@ -108,6 +109,7 @@ function Index() {
                   <a
                     href="https://github.com/Jersey-Junior-Devs/JerseyJuniorDevs"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <img
                       alt="..."
@@ -132,6 +134,7 @@ function Index() {
                   <a
                     href="https://trello.com/invite/b/NVgGPulp/87a2320880adcc71349d89d12ae59915/jjd-website"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <img
                       alt="..."

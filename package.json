@@ -5,6 +5,7 @@
   "homepage": "http://gabrieloarcas.github.io/test",
   "dependencies": {
     "classnames": "2.2.6",
+    "gh-pages": "^2.1.1",
     "moment": "2.24.0",
     "node-sass": "4.12.0",
     "nouislider": "13.1.5",

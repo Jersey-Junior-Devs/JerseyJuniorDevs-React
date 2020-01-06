@@ -66,8 +66,7 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/index"
-            target="_blank"
+            href="https://gabrieloarcas.github.io/index#main"
             title="Jersey Junior Devs"
           >
             <img
@@ -123,7 +122,7 @@ function IndexNavbar() {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#main" target="_blank">
+              <NavLink href="https://gabrieloarcas.github.io/index#main">
                 <i className="nc-icon nc-book-bookmark" /> Members
               </NavLink>
             </NavItem>
