@@ -2,6 +2,7 @@
   "name": "jersey-junior-dev",
   "version": "1.0.0",
   "private": true,
+  "homepage": "http://gabrieloarcas.github.io/test",
   "dependencies": {
     "classnames": "2.2.6",
     "moment": "2.24.0",
@@ -21,6 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "compile-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css",
     "minify-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.min.css --output-style compressed",
