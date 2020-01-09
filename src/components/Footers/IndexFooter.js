@@ -44,6 +44,11 @@ function IndexFooter() {
                   Freecodecamp
                 </a>
               </li>
+              <li>
+                <a href="https://reactjs.org/docs/getting-started.html" target="_blank">
+                  ReactJS Docs
+                </a>
+              </li>
             </ul>
           </nav>
           <div className="credits ml-auto">
