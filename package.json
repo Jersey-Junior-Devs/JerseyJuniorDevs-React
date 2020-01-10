@@ -2,7 +2,7 @@
   "name": "jersey-junior-dev",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://gabrieloarcas.github.io/test",
+  "homepage": ".",
   "dependencies": {
     "classnames": "2.2.6",
     "gh-pages": "^2.1.1",
