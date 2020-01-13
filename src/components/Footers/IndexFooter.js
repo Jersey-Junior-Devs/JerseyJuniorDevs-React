@@ -30,22 +30,22 @@ function IndexFooter() {
           <nav className="footer-nav">
             <ul>
               <li>
-                <a href="https://www.google.com" target="_blank">
+                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
                   Useful Info
                 </a>
               </li>
               <li>
-                <a href="https://www.w3schools.com/" target="_blank">
+                <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">
                   w3schools
                 </a>
               </li>
               <li>
-                <a href="https://www.freecodecamp.org/" target="_blank">
+                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
                   Freecodecamp
                 </a>
               </li>
               <li>
-                <a href="https://reactjs.org/docs/getting-started.html" target="_blank">
+                <a href="https://reactjs.org/docs/getting-started.html" target="_blank" rel="noopener noreferrer">
                   ReactJS Docs
                 </a>
               </li>

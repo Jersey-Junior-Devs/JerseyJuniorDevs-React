@@ -99,6 +99,7 @@ function IndexNavbar() {
                 data-placement="bottom"
                 href="https://www.facebook.com/groups/3092720600797985"
                 target="_blank"
+                rel="noopener noreferrer"
                 title="Our Facebook Community"
               >
                 <i className="fa fa-facebook-square" />
@@ -110,6 +111,7 @@ function IndexNavbar() {
                 data-placement="bottom"
                 href="https://github.com/Jersey-Junior-Devs/"
                 target="_blank"
+                rel="noopener noreferrer"
                 title="Star on GitHub"
               >
                 <i className="fa fa-github" />
