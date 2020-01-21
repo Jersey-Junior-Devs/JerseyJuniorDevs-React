@@ -30,14 +30,22 @@ import "assets/scss/paper-kit.scss";
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
 
+
+const env = process.env.NODE_ENV;
+
 const tagManagerArgs = {
-  //TODO add correct GTM account ID
-  gtmId: "GTM-WLM3JH7"
+  gtmId: "GTM-WLM3JH7",
+  //! the below changes GTM values based on whether dev or production
+  auth: env === "development"
+      ? "wOLlB9ZmTeQvnptGPP4WAA"
+      : "yRVsO-whbdxkUy_41C2-0w",
+  preview: env === "development"
+    ? "env-7"
+    : "env-1"
 };
 TagManager.initialize(tagManagerArgs);
 
 // others
-
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
