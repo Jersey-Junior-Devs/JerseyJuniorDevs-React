@@ -20,12 +20,21 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 
+// Google tag manager plugin
+import TagManager from "react-gtm-module";
+
 // styles
 import "assets/css/bootstrap.min.css";
 import "assets/scss/paper-kit.scss";
 // pages
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
+
+const tagManagerArgs = {
+  //TODO add correct GTM account ID
+  gtmId: "GTM-000000"
+};
+TagManager.initialize(tagManagerArgs);
 
 // others
 
