@@ -95,6 +95,16 @@ function IndexNavbar() {
         >
           <Nav navbar>
             <NavItem>
+              <NavLink href="#about">
+                <i className="nc-icon nc-book-bookmark" /> About
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="index#join">
+                <i className="nc-icon nc-book-bookmark" /> Join
+              </NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink
                 data-placement="bottom"
                 href="https://www.facebook.com/groups/3092720600797985"
@@ -116,16 +126,6 @@ function IndexNavbar() {
               >
                 <i className="fa fa-github" />
                 <p className="d-lg-none">GitHub</p>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#about">
-                <i className="nc-icon nc-book-bookmark" /> About
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="index#join">
-                <i className="nc-icon nc-book-bookmark" /> Join
               </NavLink>
             </NavItem>
           </Nav>
