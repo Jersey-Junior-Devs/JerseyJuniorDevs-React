@@ -32,7 +32,7 @@ import NucleoIcons from "views/NucleoIcons.js";
 
 const tagManagerArgs = {
   //TODO add correct GTM account ID
-  gtmId: "GTM-000000"
+  gtmId: "GTM-WLM3JH7"
 };
 TagManager.initialize(tagManagerArgs);
 
