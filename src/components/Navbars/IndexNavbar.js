@@ -75,7 +75,7 @@ function IndexNavbar() {
               alt="..."
               src={require("assets/img/logo/only_icon.svg")}
               
-            />{" "}
+            />
             Jersey Junior Devs
           </NavbarBrand>
           <button
