@@ -21,6 +21,7 @@ import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
+import './indexHeader.css'
 
 // core components
 
@@ -29,10 +30,6 @@ function IndexHeader() {
     <>
       <div
         className="page-header section-dark"
-        style={{
-          backgroundImage:
-            "url(" + require("assets/img/background/code.jpeg") + ")"
-        }}
       >
         <div className="filter" />
         <div className="content-center">
@@ -42,7 +39,6 @@ function IndexHeader() {
             </div>
             <h2
               className="presentation-subtitle text-center"
-              style={{ color: "#F7CB15", fontWeight: "1000" }}
             >
               Built by members of the community themselves.
             </h2>

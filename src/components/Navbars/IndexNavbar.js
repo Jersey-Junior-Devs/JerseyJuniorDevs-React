@@ -19,6 +19,7 @@
 import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
+import './navBar.css'
 // reactstrap components
 import {
   Collapse,
@@ -70,9 +71,10 @@ function IndexNavbar() {
             title="Jersey Junior Devs"
           >
             <img
+              className ="logo"
               alt="..."
               src={require("assets/img/logo/only_icon.svg")}
-              style={{ width: "25%" }}
+              
             />{" "}
             Jersey Junior Devs
           </NavbarBrand>
