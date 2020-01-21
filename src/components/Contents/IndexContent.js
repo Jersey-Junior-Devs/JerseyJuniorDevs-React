@@ -51,7 +51,7 @@ function IndexContent() {
                     Step 2
                   </h4>
                   <a
-                    href="https://github.com/Jersey-Junior-Devs/JerseyJuniorDevs"
+                    href="https://github.com/Jersey-Junior-Devs/JerseyJuniorDevs-React"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
