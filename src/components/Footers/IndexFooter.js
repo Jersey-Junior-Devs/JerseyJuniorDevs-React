@@ -30,7 +30,7 @@ function IndexFooter() {
           <nav className="footer-nav">
             <ul>
               <li>
-                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
                   Useful Info
                 </a>
               </li>
