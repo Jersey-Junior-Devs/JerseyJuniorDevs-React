@@ -76,18 +76,18 @@ function IndexContent() {
                     Step 3
                   </h4>
                   <a
-                    href="https://join.slack.com/t/jersey-devs/shared_invite/enQtOTAwMTgzNzcyMTk3LTIzODhhYjJkOTI0MjNlMzFkZWY0NDA3OGU1NWQ2NzQxZjRkYmUyMWI2YzQ0NWZmMGE1YzllMzg3ZDkwOGUzYzM"
+                    href="https://discord.gg/BRXukzU"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <img
                       alt="..."
                       className="img-rounded img-responsive"
-                      src={require("assets/img/icons/slack.png")}
-                      style={{ width: "80%", padding: "10px" }}
+                      src={require("assets/img/icons/discord.png")}
+                      style={{ width: "80%" }}
                     />
                     <p className="darker pl-5 pr-5">
-                      Share ideas or ask for help on the Slack group.
+                      Share ideas or ask for help on the Discord server.
                     </p>
                   </a>
                 </div>
